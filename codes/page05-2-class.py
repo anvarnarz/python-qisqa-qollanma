@@ -42,3 +42,24 @@ class Talaba(Foydalanuvchi):
 
 talaba = Talaba("Alijon","Valiyev","ali2020@gmail.com","N00111")
 print(talaba.get_info())
+
+# Inkapsulyasiya - obyektning xususiyatlariga murojaat qilishni yopish
+class Avto:
+    """Avtomobil klassi"""
+    def __init__(self,model,rang,yil,narh,km=0):
+        """Avtomobilning xususiyatlari"""
+        self.model = model
+        self.rang = rang
+        self.yil = yil
+        self.narh = narh
+        self.__km = km        
+    
+    def get_km(self):
+        return self.__km
+    
+    def add_km(self,km):
+        """Mashinaning km ga yana km qo'shish"""
+        if km>=0:
+            self.__km += km
+        else:
+            print("Mashina km kamaytirib bo'lmaydi")
