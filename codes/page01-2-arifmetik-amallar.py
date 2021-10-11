@@ -1,4 +1,4 @@
-a,b = 10,20 # bir qatorda ikki o'zgaruvchiga qiymat berish
+a, b = 10, 20  # bir qatorda ikki o'zgaruvchiga qiymat berish
 
 # Qo'shish
 c = a + b
@@ -10,15 +10,15 @@ c = b - a
 d = a * b
 
 # Bo'lish (natija o'nlik son)
-x = 40/20
+x = 40 / 20
 
 # Bo'lish (natija butun son)
-x = 40//20
+x = 40 // 20
 
 # Darajaga oshirish
-x = 3**2 # 3 ning kvadrati
-y = 5**3 # 5 ning kubi
-z = 81**0.5 # 81 ning ildizi
+x = 3 ** 2  # 3 ning kvadrati
+y = 5 ** 3  # 5 ning kubi
+z = 81 ** 0.5  # 81 ning ildizi
 
 # Bo'linmanng qoldig'ini topish
-m = 15%6
+m = 15 % 6

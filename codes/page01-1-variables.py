@@ -1,10 +1,10 @@
 # O'zgaruvchilar ma'lumotlarni saqlash uchun ishlatiladi.
-x = 10 # Butun son
-y = 5.5 # Oʼnlik son
-ism = "Anvar" # Matn
+x = 10  # Butun son
+y = 5.5  # Oʼnlik son
+ism = "Anvar"  # Matn
 
 # "Hello World!"
-print('Hello World!')
+print("Hello World!")
 
 # print()
 msg = "Assalom alaykum!"
